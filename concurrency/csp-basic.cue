@@ -44,6 +44,7 @@ consumer: {
     "c-\(n)": {
       @task(csp.Recv)
       "mailbox": mailbox
+      // quitMailbox: "..."
       handler: {
         msg: _
         print: {
